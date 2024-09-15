@@ -1,6 +1,6 @@
-﻿using StylistPro.Compra.API.Entities;
+﻿using StylistPro.Compra.Domain.Entities;
 
-namespace StylistPro.Compra.API.Repositories
+namespace StylistPro.Compra.Domain.Interfaces
 {
     public interface IComprasRepository
     {

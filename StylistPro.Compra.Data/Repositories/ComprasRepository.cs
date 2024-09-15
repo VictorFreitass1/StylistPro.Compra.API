@@ -1,13 +1,14 @@
-﻿using StylistPro.Compra.API.AppData;
-using StylistPro.Compra.API.Entities;
+﻿using StylistPro.Compra.Data.AppData;
+using StylistPro.Compra.Domain.Entities;
+using StylistPro.Compra.Domain.Interfaces;
 
-namespace StylistPro.Compra.API.Repositories
+namespace StylistPro.Compra.Data.Repositories
 {
-    public class ComprasRepository : IComprasRepository
+    public class ApplicationService : IComprasRepository
     {
         private readonly ApplicationContext _context;
 
-        public ComprasRepository(ApplicationContext context)
+        public ApplicationService(ApplicationContext context)
         {
             _context = context;
         }

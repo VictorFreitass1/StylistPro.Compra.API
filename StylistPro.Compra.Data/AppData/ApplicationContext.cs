@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using StylistPro.Compra.API.Entities;
+using StylistPro.Compra.Domain.Entities;
 
-namespace StylistPro.Compra.API.AppData
+namespace StylistPro.Compra.Data.AppData
 {
     public class ApplicationContext : DbContext
     {
