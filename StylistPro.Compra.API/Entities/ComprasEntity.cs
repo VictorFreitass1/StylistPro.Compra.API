@@ -9,7 +9,7 @@ namespace StylistPro.Compra.API.Entities
         [Key]
         public int Id { get; set; }
         public DateTime DataDaCompra { get; set; }
-        public string Status { get; set; }
+        public string Status { get; set; } = string.Empty;
 
     }
 }
